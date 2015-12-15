@@ -11,7 +11,7 @@ $predecode = file_get_contents($result);
 $test = json_decode($predecode, true); 
 
 $page = $_SERVER['PHP_SELF'];
-$sec = "200";            
+$sec = "200";            fdsa
 
 ?>
 
