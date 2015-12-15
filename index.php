@@ -24,14 +24,10 @@ setcookie($cookie_name, $zip, time() + (86400 * 30), "/"); // 86400 = 1 day
 <!DOCTYPE html>
 <html>
 			<head>
-				<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="refresh" content="<?php echo $sec?>;URL='<?php echo $page?>'">
         <meta http-equiv="X-UA-Compatible" content="IE=edge;chrome=1" />
-				<link rel="stylesheet" type="text/css" href="css/style.css">
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="css/loaders.css">
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/animate.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
         <script src = "https://code.jquery.com/jquery-2.1.4.min.js"></script>
 			</head>
