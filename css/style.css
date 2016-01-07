@@ -30,12 +30,12 @@ body {
     background: #fff;
     height: 220px; width: 340px;
     border-radius: 7px;
-    box-shadow: 0.3px 0.3px 0.3px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.2);
     font-family: 'Open Sans', sans-serif;
 }
 
 .city, .date {
-    color: gray;
+    color: black;
     margin-left: 35px;
 }
 
@@ -51,8 +51,8 @@ body {
 .sun {
     position: absolute;
     display: inline;
-    width: 70px;
-    height: 70px;
+    width: 150px;
+    height: 150px;
     margin-left: 35px;
     background: rgba(241, 196, 15,1.0);
     -moz-border-radius: 50px;
@@ -84,16 +84,16 @@ body {
     -ms-transform-origin: center center;
     transform-origin:50% 50%;
 
-    -webkit-animation: spin 25s linear infinite, sun-glow 3s 0s linear infinite;
-    -moz-animation: spin 25s linear infinite, sun-glow 3s 0s linear infinite;
-    -o-animation:spin 25s linear infinite, sun-glow 3s 0s linear infinite;
-    -ms-animation: spin 25s linear infinite, sun-glow 3s 0s ease-in-out infinite;
-    animation: spin 25s linear infinite,sun-glow 3s 0s linear infinite;
+    -webkit-animation: spin 50s linear infinite, sun-glow 5s 0s linear infinite;
+    -moz-animation: spin 50s linear infinite, sun-glow 5s 0s linear infinite;
+    -o-animation:spin 50s linear infinite, sun-glow 5s 0s linear infinite;
+    -ms-animation: spin 50s linear infinite, sun-glow 5s 0s ease-in-out infinite;
+    animation: spin 50s linear infinite,sun-glow 5s 0s linear infinite;
 
 }
 #sun{
-    stroke-width:18;
-    stroke-dasharray:2;
+    stroke-width:100;
+    stroke-dasharray:1000;
     stroke-dashoffset:2;
 }
 @-webkit-keyframes sun-glow {
