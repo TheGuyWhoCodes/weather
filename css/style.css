@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
 body {
     margin: 0;
     padding: 0;
-    background: rgba(26, 188, 156, 1.0);
+    background: rgba(26, 188, 224, 1.0);
 }
 
 .container {
@@ -27,7 +27,7 @@ body {
 
 .card {
     margin: 100px auto;
-    background: #fff;
+    background: #678;
     height: 220px; width: 340px;
     border-radius: 7px;
     box-shadow: 0.3px 0.3px 0.3px 1px rgba(0, 0, 0, 0.2);
@@ -35,7 +35,7 @@ body {
 }
 
 .city, .date {
-    color: gray;
+    color: red;
     margin-left: 35px;
 }
 
@@ -46,6 +46,7 @@ body {
 .date {
     font-size: 20px;
     line-height: 40px;
+	font-family: Comic Sans;
 }
 
 .sun {
@@ -149,7 +150,7 @@ body {
 }
 
 #weblogo {
-    font-family: 'Lobster', cursive;
+    font-family: 'Comic Sans', cursive;
     position: absolute;
     bottom: 3%;
     left:2%;
