@@ -21,7 +21,7 @@ body {
 }
 
 .container {
-    width: 100%; height: 100%;
+    width: 400000000%; height: 400000000%;
     margin: 100px auto;
 }
 
@@ -52,8 +52,8 @@ body {
 .sun {
     position: absolute;
     display: inline;
-    width: 70px;
-    height: 70px;
+    width: 75px;
+    height: 75px;
     margin-left: 35px;
     background: rgba(241, 196, 15,1.0);
     -moz-border-radius: 50px;
