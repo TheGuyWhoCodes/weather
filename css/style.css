@@ -17,7 +17,7 @@ html, body, div, span, applet, object, iframe, p, blockquote, pre, a, abbr, acro
 body {
     margin: 0;
     padding: 0;
-    background: rgba(26, 188, 156, 1.0);
+    background: rgba(10, 150, 200, 1.0);
 }
 
 .container {
@@ -28,14 +28,14 @@ body {
 .card {
     margin: 100px auto;
     background: #fff;
-    height: 220px; width: 340px;
-    border-radius: 7px;
+    height: 250px; width: 200px;
+    border-radius: 20px;
     box-shadow: 0.3px 0.3px 0.3px 1px rgba(0, 0, 0, 0.2);
     font-family: 'Open Sans', sans-serif;
 }
 
 .city, .date {
-    color: gray;
+    color: rgba(10,150,250,1.0);
     margin-left: 35px;
 }
 
@@ -44,7 +44,7 @@ body {
     font-size: 26px;
 }
 .date {
-    font-size: 20px;
+    font-size: 65px;
     line-height: 40px;
 }
 
@@ -53,8 +53,8 @@ body {
     display: inline;
     width: 70px;
     height: 70px;
-    margin-left: 35px;
-    background: rgba(241, 196, 15,1.0);
+    margin-left: 100px;
+    background: rgb(100,100,0);
     -moz-border-radius: 50px;
     -webkit-border-radius: 50px;
     border-radius: 50px;
