@@ -1,17 +1,17 @@
-<?php 
+<?php
 $base = "http://api.openweathermap.org/data/2.5/weather?zip=";
 $zip = $_POST["name"];
 $country = ",us";
 $degree = "&units=imperial";
-$result = $base . $zip . $country . $degree ;
+$result = $base . $zip . $country . $degree . "&APPID=4f93138a79c422a9cac41912f152141a";
 echo $result;
-  
+
 $predecode = file_get_contents($result);
 
-$test = json_decode($predecode, true); 
+$test = json_decode($predecode, true);
 
 $page = $_SERVER['PHP_SELF'];
-$sec = "200";            
+$sec = "200";
 
 ?>
 
@@ -52,7 +52,7 @@ Zip: <input type="text" name="name"><br>
                 </svg>
             </div>
 
-            <div class="temp"> 
+            <div class="temp">
                 <?php  echo floor ($test['main']['temp']) ?>°F
              </div>
         </div>
